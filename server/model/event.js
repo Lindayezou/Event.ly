@@ -111,3 +111,9 @@ createTable(function (err){
     console.log("ERR!! ", err);
   }
 });
+
+createUserTable(function (err){
+  if(err){
+    console.log("UserTable ERR!! ", err);
+  }
+});
